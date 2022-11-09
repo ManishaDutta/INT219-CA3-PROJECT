@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #E6E6FA;
+}
+.back{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
+ .heading {
+  padding-top: 1%;
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    /* background-color: #AAC4FF5 ; */
+    background-color: #D2DAFF;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 550;
+    font-size: 200%;
+    width: 100%;
+    height: 90%;
+    
+    
+}
+.di{
+  border-radius: 30%;
+  width: 90%;
+  height: 12vh;
+  padding-top: 10;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.user{
+  border-color: #68bdad;
+  border-radius: 0mm;
+  border-style: ridge;
+}
+.font{
+  color: rgb(12, 12, 12);
+  font-size: 120%;
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  text-decoration: wavy;
+}
+.border {
+  display: flex;  
+  position: relative;
+  flex-direction: column;
+
+  align-items: center;
+  /* justify-content: space-between; */
+  background-image: linear-gradient(to right top, #e6e6fa, #cdc9f5, #b6acef, #a38fe6, #9370db);
+/* background-image: linear-gradient(to right top, #9edadd, #8edfd9, #82e3d0, #7de6c2, #81e8b0); */
+  padding: 3rem;
+  width: 70%;
+  height: 10%;
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.btn{
+  align-self: center;
+  border-radius: 9cm;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: rgba(169, 169, 203, 0.25) 0px 2px 5px -1px,
+}
+button:hover{
+  background-image: linear-gradient(to right top, #e6e6fa, #c0b6e4, #a585c9, #9151a8, #800080);  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1); 
+  transform: scale(1.2); 
+
+}
+.output{
+  font-size: 200%;
+
+}

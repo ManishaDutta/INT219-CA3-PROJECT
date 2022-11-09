@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.min.js"></script>
+
+</head>
+
+
+<body class="back">
+    <br>
+    <div class="main">
+        <div class="di">
+            <h1 class="heading">Longest subarray with sum divisible by k</h1>
+        </div>
+        <br>
+        <div ng-app class="border">
+
+            <p class="font"> Enter Array Size: <input type="number" ng-model="elements"
+                    placeholder="Enter any number" class="user"></p><br>
+            <p class="font"> Enter {{elements}} Array Elements/Numbers : <input type="text" id="a" ng-model="array"
+                    placeholder="eg: 1,2,3,4,..." class="user"></p> <br>
+
+            <p class="font"> Value of k: <input id="kvalField" type="number" ng-model="kval"
+                    placeholder="Enter any number" class="user"><br></p>
+            <!-- <p id="b">Array : {{array}}</p>
+        Value of k: {{kval}} <br> -->
+
+            <br>
+
+            <br> <button id="sbBtn" value="submit" class="btn">Submit</button> <br>
+            <br>
+            <p id="res" class="output">Click "Submit" to view Output!</p>
+        </div>
+        <br>
+    </div>
+    <br>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
